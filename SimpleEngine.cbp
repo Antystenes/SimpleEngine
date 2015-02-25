@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SimpleEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SimpleEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SimpleEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2" />
+		</Linker>
+		<Unit filename="CharHandler.cpp" />
+		<Unit filename="CharHandler.hpp" />
+		<Unit filename="GameEngine.cpp" />
+		<Unit filename="GameEngine.hpp" />
+		<Unit filename="MainMenu.cpp" />
+		<Unit filename="MainMenu.hpp" />
+		<Unit filename="MapHandler.cpp" />
+		<Unit filename="MapHandler.hpp" />
+		<Unit filename="WindowInitializer.cpp" />
+		<Unit filename="WindowInitializer.hpp" />
+		<Unit filename="main.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

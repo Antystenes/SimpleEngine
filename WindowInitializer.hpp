@@ -1,0 +1,7 @@
+#ifndef WINDOWINITIALIZER_HPP_INCLUDED
+#define WINDOWINITIALIZER_HPP_INCLUDED
+
+
+void WindowInit(SDL_Window** window, SDL_Surface** ScreenSurface);
+
+#endif // WINDOWINITIALIZER_HPP_INCLUDED
